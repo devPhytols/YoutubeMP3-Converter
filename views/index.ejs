@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Youtube Videos to MP3</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/e589c67cd7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-gerar">
+            <h3>Convert Youtube Videos to MP3</h3>
+            <form action="/download" method="get">
+                <input type="text" name="resultado" id="resultado" placeholder="Youtube URL">
+                <h6 style="text-align: center; padding: 12px 5px 6px; margin-left: 15px; color: #515BD4;">Selecione a
+                    Qualidade</h6>
+                <select name="quality" id="quality" class="checkboxes">
+                    <option value="highest">Quality 320 kbps</option>
+                    <option value="lowest">Quality 256 kbps</option>
+                    <option value="lowest">Quality 192 kbps</option>
+                    <option value="lowest">Quality 128 kbps</option>
+                    <option value="lowest">Quality 64 kbps</option>
+                </select>
+                <a href="#" onclick="document.forms[0].submit();" id="gerar"><i class="fa-solid fa-download"></i>
+                    Download Music</a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
